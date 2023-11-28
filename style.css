@@ -95,10 +95,12 @@ nav ul li a:hover::after{
 }
 .about-col-1{
     flex-basis: 35%;
+
 }
 .about-col-1 img{
     width:100%;
     border-radius:15px;
+  
 }
 .about-col-2{
     flex-basis:60%;
@@ -190,12 +192,16 @@ in{
     margin-top:50px;  */
     /* left:50px; */
     padding:10px;
+    box-shadow: 1px 8px 10px 2px var(rgba(0, 0, 0, 0.1));
+    align-items: center;
+   justify-content:center;
 }
 .container1 .image-container .image{
 height:280px;
 width:400px;
-border:5px solid #0b3f41;
-box-shadow: 0 5px 15px rgba(0,0,0,.1);
+border:0px solid #0b3f41;
+/* box-shadow: 3px 7px 5px 1px rgba(8, 1, 1, 0.25); */
+box-shadow: 1px 7px 9px 1px rgba(0, 0, 0, 0.25);
 overflow:hidden;
 cursor:pointer;
 border-radius: 12px;
@@ -254,7 +260,8 @@ transition:.2s linear;
     border-radius:10px;
     position: relative;
     overflow:hidden;
-    border:1px solid black;
+    border:0px solid black;
+    box-shadow: 5px 7px 5px 2px rgba(0, 0, 0, 0.25);
     
     
 }
@@ -315,7 +322,8 @@ transition:.2s linear;
     display:block;
     margin:50px auto;
     width:fit-content;
-    border:1px solid #fefcfd;
+    border:0px solid #fefcfd;
+    box-shadow: 2px 4px 3px 1px rgba(0, 0, 0, 0.25);
     padding:14px 50px;
     border-radius:6px;
     text-decoration:none;
